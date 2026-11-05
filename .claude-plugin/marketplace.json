@@ -1,0 +1,22 @@
+{
+  "name": "shezhere",
+  "description": "Bashkir and Ural genealogy: archives, revision lists, metrical books, shezhere, DNA.",
+  "owner": {
+    "name": "Rustam Salavatov",
+    "url": "https://github.com/fortunto2"
+  },
+  "plugins": [
+    {
+      "name": "shezhere",
+      "source": "./",
+      "description": "2 skills (archive method, DNA genealogy) + scripts: tree check and a publishing filter that folds living generations",
+      "version": "0.2.0",
+      "author": {
+        "name": "Rustam Salavatov",
+        "url": "https://github.com/fortunto2"
+      },
+      "license": "MIT",
+      "category": "research"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+# Пример для scripts/: открытая часть одной линии (имена из печатного шежере) + заглушки.
+# uv run scripts/shezhere-public.py --tree examples/tree.yaml --from descendant-4 --list
+people:
+- id: taman-bey
+  name: Таман-бей
+  born: '?'
+  note: 'Вершина шежере. Колена 1-17: печатное шежере «Шәғәле Шаһман нәҫеле» (Т. Ғ. Шаһманов, Кумертау,
+    2007), таблица деревень Яңауыл и Смаҡ.'
+- id: balun-bey
+  name: Балун-бей
+  born: '?'
+  father: taman-bey
+- id: tamyan-bey
+  name: Тамьян-бей
+  born: '?'
+  father: balun-bey
+- id: urazay-bey
+  name: Уразай-бей
+  born: '?'
+  father: tamyan-bey
+- id: motay-bey
+  name: Мотай-бей
+  born: '?'
+  father: urazay-bey
+- id: kara-bey
+  name: Кара-бей (Кырай-бей)
+  born: '?'
+  father: motay-bey
+- id: shahman
+  name: Шахман
+  born: '?'
+  father: kara-bey
+- id: shagali-shahman
+  name: Шагали Шакман (Шәғәле-кенәз)
+  born: XVI век
+  father: shahman
+- id: buraly
+  name: Буралы
+  born: '?'
+  father: shagali-shahman
+- id: ilsekay
+  name: Илсекәй
+  born: '?'
+  father: buraly
+- id: telyaukay
+  name: Теләүкәй (Телевкей)
+  born: '?'
+  father: ilsekay
+- id: mokas
+  name: Моҡас (Мукас) Теләүкәев
+  born: ~1710-е
+  father: telyaukay
+- id: hatlyk
+  name: Һатлыҡ (Сатлык) Моҡасов
+  born: '?'
+  father: mokas
+- id: kanbulat
+  name: Ҡанбулат Һатлыҡ-улы
+  born: '?'
+  father: hatlyk
+- id: kusyukbay
+  name: Көсөкбай Ҡанбулат-улы
+  born: '?'
+  father: kanbulat
+- id: salavat-eponim
+  name: Салауат Көсөкбай-улы
+  born: '?'
+  father: kusyukbay
+- id: badretdin
+  name: Бадретдин Салаватов
+  born: '?'
+  died: ~1918-1919
+  father: salavat-eponim
+- id: descendant-1
+  name: 'Потомок 1 (заглушка: правило должно его закрыть)'
+  born: '1905'
+  father: badretdin
+- id: descendant-2
+  name: 'Потомок 2 (заглушка: правило должно его закрыть)'
+  born: '1926'
+  father: descendant-1
+- id: descendant-3
+  name: 'Потомок 3 (заглушка: правило должно его закрыть)'
+  born: '1961'
+  father: descendant-2
+- id: descendant-4
+  name: 'Потомок 4 (заглушка: правило должно его закрыть)'
+  born: '1983'
+  father: descendant-3

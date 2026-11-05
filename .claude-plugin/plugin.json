@@ -1,0 +1,21 @@
+{
+  "name": "shezhere",
+  "description": "Find Bashkir and Ural ancestors in real archives (revision lists, Muslim metrical books, shezhere, military databases, DNA) with an agent, and publish the old generations without exposing the living.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Rustam Salavatov",
+    "url": "https://github.com/fortunto2"
+  },
+  "repository": "https://github.com/fortunto2/shezhere",
+  "homepage": "https://github.com/fortunto2/shezhere",
+  "license": "MIT",
+  "keywords": [
+    "genealogy",
+    "bashkir",
+    "ural",
+    "archives",
+    "shezhere",
+    "dna",
+    "ydna"
+  ]
+}
